@@ -1,1 +1,64 @@
 
+nav li:nth-child(even){
+    color: green;
+}
+
+nav li:nth-child(3) {
+   background-color: lightblue;
+}
+
+nav li:nth-child(1) {
+    border-top: 1px solid green;
+}
+nav li:nth-child(7) {
+    border-bottom: 5px solid blue;
+}
+
+nav li:nth-child(3) a,
+nav li:nth-child(5) a {
+    color: red;
+}
+
+nav li:nth-child(5) a:hover {
+    color: gray;
+}
+
+a .disabled {
+    color: purple;
+}
+li>.disabled {
+    color: purple 
+}
+li>.disabled:not(a) {
+    color: gray;
+}
+.active  {
+    color: gold;
+}
+
+section>div>div>div :not(h4){
+    color: red;
+}
+.abuelo>h4 {
+     border: 1px solid;
+     border-radius: 5px;
+ }
+
+.padre>div>h4{
+    background-color: red;
+}
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+li .promo .disabled {
+    color:gold;
+    font-weight: bold;
+}
+
+section>div>div>div>div:nth-last-child(2) {
+    color: blue;
+}
+.padre>div>h4:nth-child(4){
+    background-color: blue;
+}
